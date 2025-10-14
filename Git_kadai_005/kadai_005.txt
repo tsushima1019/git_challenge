@@ -1,0 +1,92 @@
+PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> ^C         
+PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> echo "Hello, world!" >> hello_world.txt
+>> git add hello_world.txt
+>> git commit -m "1回目のコミット: Hello, world!を追加"
+>> 
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> echo "こんにちは、世界！" >> hello_world.txt
+>> git add hello_world.txt
+>> git commit -m "2回目のコミット:  こんにちは、世界！を追加"
+>> 
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> git log -p hello_world.txt
+>> 
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> mkdir ~/Gti_kadai_005/kadai_005    
+   
+
+    ディレクトリ: C:\Users\yy091\Gt 
+    i_kadai_005
+
+
+Mode                 LastWriteTime  
+----                 -------------  
+d-----        2025/10/14     15:05  
+
+
+PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> cd ~/Git_kadai_005/kad
+ai_005
+>> touch kadai_005.txt
+cd : パス 'C:\Users\yy091\Git_kadai
+_005\kadai_005' が存在しないため検  
+出できません。
+発生場所 行:1 文字:1
++ cd ~/Git_kadai_005/kadai_005      
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
+    + CategoryInfo          : Obje  
+   ctNotFound: (C:\Users\yy091\Gi   
+  t_kadai_005\kadai_005:String)     
+ [Set-Location], ItemNotFoundEx     
+ception
+    + FullyQualifiedErrorId : Path  
+   NotFound,Microsoft.PowerShell.   
+  Commands.SetLocationCommand       
+
+touch : 用語 'touch' は、コマンドレ
+ット、関数、スクリプト ファイル、ま 
+たは操作可能なプログラムの名前とし  
+て認識されません。名前が正しく記述  
+されていることを確認し、パスが含ま  
+れている場合はそのパスが正しいこと  
+を確認してから、再試行してください  
+。
+発生場所 行:2 文字:1
++ touch kadai_005.txt
++ ~~~~~
+    + CategoryInfo          : Obje  
+   ctNotFound: (touch:String) [],   
+   CommandNotFoundException
+    + FullyQualifiedErrorId : Comm  
+   andNotFoundException
+
+PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> cd ~/Git_kadai_005/kadai_005   
+>> New-Item  kadai_005.txt
+cd : パス 'C:\Users\yy091\Git_kadai
+_005\kadai_005' が存在しないため検  
+出できません。
+発生場所 行:1 文字:1
++ cd ~/Git_kadai_005/kadai_005      
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
+    + CategoryInfo          : Obje  
+   ctNotFound: (C:\Users\yy091\Gi   
+  t_kadai_005\kadai_005:String)     
+ [Set-Location], ItemNotFoundEx     
+ception
+    + FullyQualifiedErrorId : Path  
+   NotFound,Microsoft.PowerShell.   
+  Commands.SetLocationCommand       
+
+
+
+    ディレクトリ: C:\Users\yy091\On 
+    eDrive\Desktop\Git_kadai_005    
+
+
+Mode                 LastWriteTime  
+----                 -------------  
+-a----        2025/10/14     15:06  
+
+
+PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005>
