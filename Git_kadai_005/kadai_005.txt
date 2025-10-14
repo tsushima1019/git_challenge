@@ -1,92 +1,267 @@
-PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> ^C         
-PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> echo "Hello, world!" >> hello_world.txt
+PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> cd ~/Git_kadai_005/git_challenge
+PS C:\Users\yy091\Git_kadai_005\git_challenge> git init 
+Initialized empty Git repository in C:/Users/yy091/Git_kadai_005/git_challenge/.git/
+    ディレクトリ: C:\Users\yy091\Git_kadai_005\git_ 
+    challenge
+
+
+Mode                 LastWriteTime         Length N 
+                                                  a 
+                                                  m 
+                                                  e 
+----                 -------------         ------ - 
+-a----        2025/10/14     15:26              6 h 
+                                                  e 
+                                                  l 
+                                                  l 
+                                                  o 
+                                                  _ 
+                                                  w 
+                                                  o 
+                                                  r 
+                                                  l 
+                                                  d 
+                                                  . 
+                                                  t 
+                                                  x 
+                                                  t 
+
+
+PS C:\Users\yy091\Git_kadai_005\git_challenge> echo "Hello, world!" >> hello_world.txt
 >> git add hello_world.txt
 >> git commit -m "1回目のコミット: Hello, world!を追加"
->> 
-fatal: not a git repository (or any of the parent directories): .git
-fatal: not a git repository (or any of the parent directories): .git
-PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> echo "こんにちは、世界！" >> hello_world.txt
+>>
+[main (root-commit) 3cb9823] 1回目のコミット: Hello, world!を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)    
+ create mode 100644 hello_world.txt
+PS C:\Users\yy091\Git_kadai_005\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
 >> git add hello_world.txt
->> git commit -m "2回目のコミット:  こんにちは、世界！を追加"
+>> git commit -m "2回目のコミット: こんにちは、世界 ！を追加"
+>>
+[main 35403d1] 2回目のコミット: こんにちは、世界！を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)    
+PS C:\Users\yy091\Git_kadai_005\git_challenge> git log -p hello_world.txt
+>>
+commit 35403d1346e9c79ac17272ed60d113299e4d144e (HEAD -> main)
+Author: tsushima1019 <yy09170917@gmail.com>
+Date:   Tue Oct 14 15:26:59 2025 +0900
+
+    2回目のコミット: こんにちは、世界！を追加       
+
+diff --git a/hello_world.txt b/hello_world.txt      
+index 26a2c74..a6e11ab 100644
+Binary files a/hello_world.txt and b/hello_world.txt differ
+
+commit 3cb982321e4044d45c3ea2b75a34dce408543c29     
+Author: tsushima1019 <yy09170917@gmail.com>
+Date:   Tue Oct 14 15:26:54 2025 +0900
+
+    1回目のコミット: Hello, world!を追加
+
+diff --git a/hello_world.txt b/hello_world.txt      
+new file mode 100644
+index 0000000..26a2c74
+Binary files /dev/null and b/hello_world.txt differ 
+PS C:\Users\yy091\Git_kadai_005\git_challenge> mkdir ~/Git_kadai_005/kadai_005 
 >> 
-fatal: not a git repository (or any of the parent directories): .git
-fatal: not a git repository (or any of the parent directories): .git
-PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> git log -p hello_world.txt
->> 
-fatal: not a git repository (or any of the parent directories): .git
-PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> mkdir ~/Gti_kadai_005/kadai_005    
-   
-
-    ディレクトリ: C:\Users\yy091\Gt 
-    i_kadai_005
 
 
-Mode                 LastWriteTime  
-----                 -------------  
-d-----        2025/10/14     15:05  
+    ディレクトリ: C:\Users\yy091\Git_kadai_005      
 
 
-PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> cd ~/Git_kadai_005/kad
-ai_005
+Mode                 LastWriteTime         Length N 
+                                                  a 
+                                                  m 
+                                                  e 
+----                 -------------         ------ - 
+d-----        2025/10/14     15:27                k 
+                                                  a 
+                                                  d 
+                                                  a 
+                                                  i 
+                                                  _ 
+                                                  0 
+                                                  0 
+                                                  5 
+
+
+PS C:\Users\yy091\Git_kadai_005\git_challenge> cd ~/任意のフォルダ/kadai_005
 >> touch kadai_005.txt
-cd : パス 'C:\Users\yy091\Git_kadai
-_005\kadai_005' が存在しないため検  
-出できません。
-発生場所 行:1 文字:1
-+ cd ~/Git_kadai_005/kadai_005      
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
-    + CategoryInfo          : Obje  
-   ctNotFound: (C:\Users\yy091\Gi   
-  t_kadai_005\kadai_005:String)     
- [Set-Location], ItemNotFoundEx     
-ception
-    + FullyQualifiedErrorId : Path  
-   NotFound,Microsoft.PowerShell.   
-  Commands.SetLocationCommand       
+>> PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> cd ~/Git_kadai_005/git_challenge
+>> PS C:\Users\yy091\Git_kadai_005\git_challenge> git init
+>> Initialized empty Git repository in C:/Users/yy091/Git_kadai_005/git_challenge/.git/
+>> PS C:\Users\yy091\Git_kadai_005\git_challenge> type nul > hello_world.txt
+>> type : パス 'C:\Users\yy091\Git_kadai_005\git_chall
+>> enge\nul' が存在しないため検出できません。       
+>> 発生場所 行:1 文字:1
+>> + type nul > hello_world.txt
+>> + ~~~~~~~~~~~~~~~~~~~~~~~~~~
+>>     + CategoryInfo          : ObjectNotFound: (C:\
+>>    Users\yy091\...t_challenge\nul:String) [Get-Co
 
-touch : 用語 'touch' は、コマンドレ
-ット、関数、スクリプト ファイル、ま 
-たは操作可能なプログラムの名前とし  
-て認識されません。名前が正しく記述  
-されていることを確認し、パスが含ま  
-れている場合はそのパスが正しいこと  
-を確認してから、再試行してください  
-。
-発生場所 行:2 文字:1
-+ touch kadai_005.txt
-+ ~~~~~
-    + CategoryInfo          : Obje  
-   ctNotFound: (touch:String) [],   
-   CommandNotFoundException
-    + FullyQualifiedErrorId : Comm  
-   andNotFoundException
+>>   ntent], ItemNotFoundException
+>>     + FullyQualifiedErrorId : PathNotFound,Microso
+>>    ft.PowerShell.Commands.GetContentCommand      
+>>
+>> PS C:\Users\yy091\Git_kadai_005\git_challenge> echo. > hello_world.txt
+>> echo. : 用語 'echo.' は、コマンドレット、関数、スク
+>> リプト ファイル、または操作可能なプログラムの名前と
+>> して認識されません。名前が正しく記述されているこ と
+>> を確認し、パスが含まれている場合はそのパスが正し い
+>> ことを確認してから、再試行してください。
+>> 発生場所 行:1 文字:1
+>> + echo. > hello_world.txt
+>> + ~~~~~
+>>     + CategoryInfo          : ObjectNotFound: (ech
+>>    o.:String) [], CommandNotFoundException       
+>>     + FullyQualifiedErrorId : CommandNotFoundExcep
+>>    tion
+>>
+>> PS C:\Users\yy091\Git_kadai_005\git_challenge> New-Item hello_world.txt -ItemType File
+>> >>
+>> New-Item : ファイル 'C:\Users\yy091\Git_kadai_005\g
+>> it_challenge\hello_world.txt' は既に存在します。 
 
-PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005> cd ~/Git_kadai_005/kadai_005   
->> New-Item  kadai_005.txt
-cd : パス 'C:\Users\yy091\Git_kadai
-_005\kadai_005' が存在しないため検  
-出できません。
-発生場所 行:1 文字:1
-+ cd ~/Git_kadai_005/kadai_005      
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
-    + CategoryInfo          : Obje  
-   ctNotFound: (C:\Users\yy091\Gi   
-  t_kadai_005\kadai_005:String)     
- [Set-Location], ItemNotFoundEx     
-ception
-    + FullyQualifiedErrorId : Path  
-   NotFound,Microsoft.PowerShell.   
-  Commands.SetLocationCommand       
+>> 発生場所 行:1 文字:1
+>> + New-Item hello_world.txt -ItemType File        
+>> + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~        
+>>     + CategoryInfo          : WriteError: (C:\User
+>>    s\yy091\...hello_world.txt:String) [New-Item],
 
+>>    IOException
+>>     + FullyQualifiedErrorId : NewItemIOError,Micro
+>>    soft.PowerShell.Commands.NewItemCommand       
+>>
+>> PS C:\Users\yy091\Git_kadai_005\git_challenge> ''
+ > hello_world.txt
+>> >>
+>> PS C:\Users\yy091\Git_kadai_005\git_challenge> Get-ChildItem hello_world.txt
+>> >>
+>>
+>>
+>>     ディレクトリ: C:\Users\yy091\Git_kadai_005\git_
+>>     challenge
+>>
+>>
+>> Mode                 LastWriteTime         Length
+ N
+>>                                                  
+ a
+>>                                                  
+ m
+>>                                                  
+ e
+>> ----                 -------------         ------
+ -
+>> -a----        2025/10/14     15:26              6
+ h
+>>                                                  
+ e
+>>                                                  
+ l
+>>                                                  
+ l
+>>                                                  
+ o
+>>                                                  
+ _
+>>                                                  
+ w
+>>                                                  
+ o
+>>                                                  
+ r
+>>                                                  
+ l
+>>                                                  
+ d
+>>                                                  
+ .
+>>                                                  
+ t
+>>                                                  
+ x
+>>                                                  
+ t
+>>
+>>
+>> PS C:\Users\yy091\Git_kadai_005\git_challenge> echo "Hello, world!" >> hello_world.txt
+>> >> git add hello_world.txt
+>> >> git commit -m "1回目のコミット: Hello, world! を追加"
+>> >>
+>> [main (root-commit) 3cb9823] 1回目のコミット: Hello, world!を追加
+>>  1 file changed, 0 insertions(+), 0 deletions(-) 
 
+>>  create mode 100644 hello_world.txt
+>> PS C:\Users\yy091\Git_kadai_005\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+>> >> git add hello_world.txt
+>> >> git commit -m "2回目のコミット: こんにちは、世界 ！を追加"
+>> >>
+>> [main 35403d1] 2回目のコミット: こんにちは、世界 ！を追加
+>>  1 file changed, 0 insertions(+), 0 deletions(-) 
 
-    ディレクトリ: C:\Users\yy091\On 
-    eDrive\Desktop\Git_kadai_005    
+>> PS C:\Users\yy091\Git_kadai_005\git_challenge> git log -p hello_world.txt
+>> >>
+>> commit 35403d1346e9c79ac17272ed60d113299e4d144e (HEAD -> main)
+>> Author: tsushima1019 <yy09170917@gmail.com>      
+>> Date:   Tue Oct 14 15:26:59 2025 +0900
+>>
+>>     2回目のコミット: こんにちは、世界！を追加    
 
+>>
+>> diff --git a/hello_world.txt b/hello_world.txt   
 
-Mode                 LastWriteTime  
-----                 -------------  
--a----        2025/10/14     15:06  
+>> index 26a2c74..a6e11ab 100644
+>> Binary files a/hello_world.txt and b/hello_world.txt differ
+>>
+>> commit 3cb982321e4044d45c3ea2b75a34dce408543c29  
 
+>> Author: tsushima1019 <yy09170917@gmail.com>      
+>> Date:   Tue Oct 14 15:26:54 2025 +0900
+>>
+>>     1回目のコミット: Hello, world!を追加
+>>
+>> diff --git a/hello_world.txt b/hello_world.txt   
 
-PS C:\Users\yy091\OneDrive\Desktop\Git_kadai_005>
+>> new file mode 100644
+>> index 0000000..26a2c74
+>> Binary files /dev/null and b/hello_world.txt differ
+>> PS C:\Users\yy091\Git_kadai_005\git_challenge> mkdir ~/Git_kadai_005/kadai_005
+>> >>
+>>
+>>
+>>     ディレクトリ: C:\Users\yy091\Git_kadai_005   
+
+>>
+>>
+>> Mode                 LastWriteTime         Length
+ N
+>>                                                  
+ a
+>>                                                  
+ m
+>>                                                  
+ e
+>> ----                 -------------         ------
+ -
+>> d-----        2025/10/14     15:27               
+ k
+>>                                                  
+ a
+>>                                                  
+ d
+>>                                                  
+ a
+>>                                                  
+ i
+>>                                                  
+ _
+>>                                                  
+ 0
+>>                                                  
+ 0
+>>                                                  
+ 5
+>>
+>>
+>> PS C:\Users\yy091\Git_kadai_005\git_challenge>
