@@ -1,0 +1,57 @@
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1
+$ mkdir git_challenge
+
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1
+$ cd git_challenge
+
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/yy091/OneDrive/Desktop/Git_kadai_005R1/git_challenge/.git/
+
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1/git_challenge (main)
+$ touch hello_world.txt
+
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1/git_challenge (main)
+$ echo "Hello,world!" >>hello_world.txt
+
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1/git_challenge (main)
+$ git commit -m "Hello,Worldを追加"
+[main (root-commit) ce67969] Hello,Worldを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1/git_challenge (main)
+$ echo "こんにちは、世界！" >> hello_world.txt
+
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1/git_challenge (main)
+$ git commit -m "こんにちは、世界！を追加"
+[main b417399] こんにちは、世界！を追加
+ 1 file changed, 1 insertion(+)
+
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1/git_challenge (main)
+$ git log
+commit b4173997c91a339dacfd223d0bc7f7f3fd3cd3e3 (HEAD -> main)
+Author: tsushima1019 <yy09170917@gmail.com>
+Date:   Wed Oct 15 10:50:39 2025 +0900
+
+    こんにちは、世界！を追加
+
+commit ce67969cbfd486b14dd680e8b6b22f9e2d3448d2
+Author: tsushima1019 <yy09170917@gmail.com>
+Date:   Wed Oct 15 10:49:12 2025 +0900
+
+    Hello,Worldを追加
+
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1/git_challenge (main)
+$ mkdir kadai_005
+
+yy091@□Ó□ MINGW64 ~/OneDrive/Desktop/Git_kadai_005R1/git_challenge (main)
+$ touch kadai_005.txt
